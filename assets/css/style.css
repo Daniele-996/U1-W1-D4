@@ -9,11 +9,13 @@ body {
   background-image: url(../img/sfondo.png);
   display: inline-block;
   margin: 1em;
+  padding: 1em;
 }
 
 /* HEADER */
 header {
   background-color: rgb(58, 152, 179);
+  padding: block 2em;
   display: block;
   text-align: center;
   color: white;
@@ -22,7 +24,7 @@ header {
 header div img {
   min-width: auto;
   text-align: center;
-  padding: auto;
+  padding-block: 2em;
   margin: auto;
   display: inline-block;
   text-align: center;
@@ -31,6 +33,10 @@ header div img {
 .first,
 nav ul li {
   text-transform: uppercase;
+}
+
+header a {
+  color: white;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
