@@ -28,6 +28,10 @@ header div img {
   text-align: center;
 }
 /* MAIN */
+.first,
+nav ul li {
+  text-transform: uppercase;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
